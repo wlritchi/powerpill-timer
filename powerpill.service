@@ -1,0 +1,5 @@
+[Unit]
+Description=Download packages with Powerpill
+
+[Service]
+ExecStart=powerpill -Syuw

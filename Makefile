@@ -3,7 +3,7 @@
 default : .SRCINFO
 
 .SRCINFO : package
-	mksrcinfo
+	makepkg --printsrcinfo > .SRCINFO
 
 package : PKGBUILD
 	makepkg
